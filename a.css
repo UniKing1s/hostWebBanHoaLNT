@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+footer {
+    margin-top: auto;
+    background-color: cadetblue;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.carousel-inner .carousel-item img {
+    height: 530px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.highlighted-heading {
+    font-family: Arial, sans-serif;
+    /* Chọn phông chữ mong muốn */
+    font-weight: bold;
+    /* In đậm */
+    font-style: italic;
+    /* In nghiêng */
+    color: red;
+    /* Màu đỏ */
+    text-align: center;
+    /* Canh giữa */
+    margin-top: 10px;
+}
